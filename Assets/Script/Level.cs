@@ -72,7 +72,7 @@ public class Level : MonoBehaviour
                     Instantiate(piles[2], new Vector3(width * i / 4 - width / 4 + transform.position.x, - height / 4, 0), Quaternion.identity).transform.SetParent(transform);
                     break;
                 case "1;0;1":
-                    Instantiate(piles[5], new Vector3(width * i / 4 - width / 4 + transform.position.x, 0, 0), Quaternion.identity).transform.SetParent(transform);
+                    Instantiate(piles[3], new Vector3(width * i / 4 - width / 4 + transform.position.x, 0, 0), Quaternion.identity).transform.SetParent(transform);
                     break;
                 case "1;0;0C":
                     Instantiate(piles[0], new Vector3(width * i / 4 - width / 4 + transform.position.x, height / 4, 0), Quaternion.identity).transform.SetParent(transform);
@@ -95,7 +95,7 @@ public class Level : MonoBehaviour
                     Instantiate(coin, new Vector3(width * i / 4 - width / 4 + 1f + transform.position.x, - height / 4, 0), Quaternion.identity).transform.SetParent(transform);
                     break;
                 case "1;0;1C":
-                    Instantiate(piles[5], new Vector3(width * i / 4 - width / 4 + transform.position.x, 0 , 0), Quaternion.identity).transform.SetParent(transform);
+                    Instantiate(piles[3], new Vector3(width * i / 4 - width / 4 + transform.position.x, 0 , 0), Quaternion.identity).transform.SetParent(transform);
                     Instantiate(coin, new Vector3(width * i / 4 - width / 4 + 1f + transform.position.x, 0 , 0), Quaternion.identity).transform.SetParent(transform);
                     break;
             }
