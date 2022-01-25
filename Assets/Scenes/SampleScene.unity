@@ -934,12 +934,49 @@ MonoBehaviour:
   robot: {fileID: 55310991}
   smoothspeed: 0.125
   offset: {x: 0, y: 0, z: -1}
+  mainbg: {fileID: 214832922}
   bg:
-  - {fileID: 357545600}
-  - {fileID: 1954392706}
-  - {fileID: 736820547}
-  - {fileID: 1693031027}
-  - {fileID: 1855182415}
+  - {fileID: 357545601}
+  - {fileID: 1954392707}
+  - {fileID: 736820548}
+  - {fileID: 1693031028}
+  - {fileID: 1855182416}
+  layer1:
+  - {fileID: 21300000, guid: 21d2358f6ab35614f81ee3d1389be192, type: 3}
+  - {fileID: 21300000, guid: dac3c0988a113d74f90c95730ea6546b, type: 3}
+  - {fileID: 21300000, guid: 31ca3f40d5a080043b2c61e359af3354, type: 3}
+  - {fileID: 21300000, guid: cd9da723ed75cd044826b2c34bc7a855, type: 3}
+  - {fileID: 21300000, guid: 3b0db4542806fc84583e68b53976812a, type: 3}
+  layer2:
+  - {fileID: 21300000, guid: 85a4d2380069f984a878ec4c274bfb9d, type: 3}
+  - {fileID: 21300000, guid: fa5ebc2c8ea98da429799e4d1eca9619, type: 3}
+  - {fileID: 21300000, guid: 02587e5f0616f904ebae220660b11e07, type: 3}
+  - {fileID: 21300000, guid: 5a7bbba2cbb9842468badca5726ff6ba, type: 3}
+  - {fileID: 21300000, guid: 3753c693fc7424048a14e8040f4f4165, type: 3}
+  layer3:
+  - {fileID: 21300000, guid: 85a4d2380069f984a878ec4c274bfb9d, type: 3}
+  - {fileID: 21300000, guid: adda84fd1d867ea45a90dadbb2e20f39, type: 3}
+  - {fileID: 21300000, guid: 493d4f6503a34a54a8b067c83af3ba15, type: 3}
+  - {fileID: 21300000, guid: 0451d46670fd7914899f04efd0b7fd75, type: 3}
+  - {fileID: 21300000, guid: b720b042d43a8c341a1e0084d7509cdf, type: 3}
+  layer4:
+  - {fileID: 21300000, guid: 5a77f1c8b0774384a8cbe8363d33a3d5, type: 3}
+  - {fileID: 21300000, guid: 43c052a64c2f18c42b7250acee0e11a8, type: 3}
+  - {fileID: 21300000, guid: eea577a171d8d7a47bfa261c55be5f34, type: 3}
+  - {fileID: 21300000, guid: 79a00ec3fb841774e871da709a2e92c5, type: 3}
+  - {fileID: 21300000, guid: cd03a6f27768a4a46a6a466ff692a1d7, type: 3}
+  layer5:
+  - {fileID: 21300000, guid: eb209d950bb59894198bff984418a572, type: 3}
+  - {fileID: 21300000, guid: e74ab4b591718e1449a23b3e66c0e2fd, type: 3}
+  - {fileID: 21300000, guid: 643b09aa3f0841440bc52ce34af1b052, type: 3}
+  - {fileID: 21300000, guid: 263d8a72bea68f548b8f944267322a88, type: 3}
+  - {fileID: 21300000, guid: 4fcdc370a71c46348bc07af1fe572d67, type: 3}
+  bg1:
+  - {fileID: 21300000, guid: 8bbcff1fd0e69664ea74b70a397b4628, type: 3}
+  - {fileID: 21300000, guid: dc38018c70635dc41a1e2ec804f10856, type: 3}
+  - {fileID: 21300000, guid: c4909420fec83524cb2c56db77e63a00, type: 3}
+  - {fileID: 21300000, guid: 5dd799b8301a188419217b8ae11df3e2, type: 3}
+  - {fileID: 21300000, guid: 83af14cf07a1a5142bc69f1a45b69d0d, type: 3}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1460,7 +1497,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 78041ef0a36ba244eb95d3a2d2545aaf, type: 3}
     volume: 1
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: Jump
     clip: {fileID: 8300000, guid: c05d78f1e725b9344bdd6134f784af87, type: 3}

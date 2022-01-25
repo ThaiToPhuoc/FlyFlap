@@ -20,6 +20,10 @@ public class Level : MonoBehaviour
         height = Gamedata.instance.height();
         getLevelData();
         createPile();
+        if (Gamedata.instance.score > 0 && Gamedata.instance.score % 15 == 1)
+        {
+            Gamedata.instance.changeBG = true;
+        }
     }
 
     // Update is called once per frame
@@ -37,7 +41,6 @@ public class Level : MonoBehaviour
         {
             Gamedata.instance.score = this.level * 3 + 3;
         }
-
     }
 
     private void getLevelData()
